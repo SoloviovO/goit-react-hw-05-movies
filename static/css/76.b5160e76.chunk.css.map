@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/76.b5160e76.chunk.css","mappings":"AAAA,kBACE,YAAa,CACb,cAAe,CACf,QAAS,CACT,YACF,CAEA,kBACE,eAAgB,CAChB,WACF","sources":["components/Cast/Cast.module.css"],"sourcesContent":[".List {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 10px;\n  padding: 10px;\n}\n\n.Item {\n  list-style: none;\n  width: 150px;\n}\n"],"names":[],"sourceRoot":""}
