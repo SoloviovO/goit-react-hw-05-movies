@@ -1,0 +1,26 @@
+.Btn {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.Wrapper {
+  display: flex;
+  padding: 20px;
+}
+
+.Box {
+  padding: 10px;
+}
+
+.Title {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+p {
+  margin: 0px;
+  padding: 5px 0;
+}

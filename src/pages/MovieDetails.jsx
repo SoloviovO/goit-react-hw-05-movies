@@ -15,14 +15,22 @@ const MovieDetails = () => {
   return (
     <>
       {movieInfo && <MovieInfo movieInfo={movieInfo} />}
-      <ul>
+      <ul style={{ listStyle: 'none' }}>
         <li>
-          <Link to="cast" state={location.state ?? '/'}>
+          <Link
+            style={{ textDecoration: 'none', color: 'black' }}
+            to="cast"
+            state={location.state ?? '/'}
+          >
             Cast
           </Link>
         </li>
         <li>
-          <Link to="reviews" state={location.state ?? '/'}>
+          <Link
+            style={{ textDecoration: 'none', color: 'black' }}
+            to="reviews"
+            state={location.state ?? '/'}
+          >
             Reviwers
           </Link>
         </li>

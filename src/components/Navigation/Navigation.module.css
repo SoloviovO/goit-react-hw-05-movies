@@ -1,0 +1,14 @@
+.List {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.Item {
+  margin-right: 10px;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
